@@ -1,7 +1,7 @@
 # Getting started with Mindi® simulation and AVR®DB microcontrollers
 This guide will get you up and running with simulating the analog OPAMP module in AVR DB family devices using the Mindi simulation tool.
 ## Configuration: Differential Amplifier
-The differential amplifier opamp configuration outputs the amplified difference between two signals. The amplification can be configured by setting the feedback divider.
+The differential amplifier op amp configuration outputs the amplified difference between two signals. The amplification can be configured by setting the feedback divider.
 
 ![Differential Amplifier](images/configuration.png)
 
@@ -20,4 +20,3 @@ Once the desired result has been verified with Mindi simulation, the corrected v
 
 ### Don't have Mindi?
 Download and install [Mindi simulation tool](https://www.microchip.com/mplab/mplab-mindi)
-Download and install Mindi model for AVR DB device
