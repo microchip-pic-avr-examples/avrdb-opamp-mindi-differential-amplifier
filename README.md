@@ -1,4 +1,4 @@
-![Microchip logo](images/microchip.png)
+	![Microchip logo](images/microchip.png)
 # Getting started with Mindi™ simulation and AVR®DB microcontrollers
 This guide will get you up and running with simulating the analog OPAMP module in AVR DB family devices using the Mindi simulation tool.
 ## Configuration: Differential Amplifier
@@ -9,7 +9,7 @@ The differential amplifier op amp configuration outputs the amplified difference
 ### Mindi Simulation
 ![Mindi](images/mplab-mindi-analog-simulator.png)
 
-Download and open the **Mindi schematic [here](schematics/)**
+Download and open the **Mindi schematic [here](https://github.com/microchip-pic-avr-examples/avrdb-opamp-mindi-differential-amplifier/releases/latest)**
 
 Press the _play_ button to simulate with an example stimulus source.
 
