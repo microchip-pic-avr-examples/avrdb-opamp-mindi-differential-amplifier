@@ -1,6 +1,6 @@
 ![Microchip logo](images/microchip.png)
 # Getting started with Mindi™ simulation and AVR®DB microcontrollers
-This guide will get you up and running with simulating the analog OPAMP module in AVR DB family devices using the Mindi simulation tool. For a larger overview, see "Getting Started with Analog Signal Conditioning (OPAMP)" for either [MPLABX](https://github.com/microchip-pic-avr-examples/avr128db48-getting-started-with-opamp-mplab) or [Studio](https://github.com/microchip-pic-avr-examples/avr128db48-getting-started-with-opamp-studio).
+This guide will get you up and running with simulating the analog OPAMP module in AVR DB family devices using the Mindi simulation tool. For a larger overview, see "Getting Started with Analog Signal Conditioning (OPAMP)" [here](https://github.com/search?q=topic%3Aavr-db+topic%3Agetting-started-with-opamp+org%3Amicrochip-pic-avr-examples).
 
 ## Configuration: Differential Amplifier
 The differential amplifier op amp configuration outputs the amplified difference between two signals. The amplification can be configured by setting the feedback divider.
