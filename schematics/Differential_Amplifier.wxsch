@@ -629,7 +629,7 @@ Property name="StyleSelected" value="DefaultSelected" autopos=1 normal=Left rota
 .EndWire
 .TextAnnotation
 Attributes orient=N0 x=-360 y=6720  
-TextInfo text="Differential amplifier gain settings:\n\n| Gain  |    MUXWIP   | Description\n|           | value| Name|     R1 |    R2 |\n|0.06    |    0x0|  WIP0|    60k|      4k|\n|0.14    |    0x1|  WIP1|    56k|      8k|\n|0.33    |    0x2|  WIP2|    48k|    16k|\n|0.75    |    0x3|  WIP3|    32k|    32k|\n|1.33    |    0x4|  WIP4|    24k|    40k|\n|3         |    0x5|  WIP5|    16k|    48k|\n|7         |    0x6|  WIP6|      8k|    56k|\n|15       |    0x7|  WIP7|      4k|    60k|" font="arial" size="14" italics="false" bold="false" 
+TextInfo text="Differential amplifier gain settings:\n\n| Gain  |    MUXWIP   | Description\n|           | value| Name|     R1 |    R2 |\n|0.06    |    0x0|  WIP0|    60k|      4k|\n|0.14    |    0x1|  WIP1|    56k|      8k|\n|0.33    |    0x2|  WIP2|    48k|    16k|\n|1         |    0x3|  WIP3|    32k|    32k|\n|1.66    |    0x4|  WIP4|    24k|    40k|\n|3         |    0x5|  WIP5|    16k|    48k|\n|7         |    0x6|  WIP6|      8k|    56k|\n|15       |    0x7|  WIP7|      4k|    60k|" font="arial" size="14" italics="false" bold="false" 
 Property name="StyleNormal" value="DefaultSchematicCaption" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleSelected" value="DefaultSelectedSchematicCaption" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="TextAlignment" value="AlignLeft" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
@@ -637,7 +637,7 @@ Property name="TextAlignment" value="AlignLeft" autopos=1 normal=Left rotated=Le
 --SXVERSION1.5
 .Instance
 Attributes type=symbol name="Free_text" selected=0 protected=0 x=-360 y=6720 orient=N0
-Property name="value" value="Differential amplifier gain settings:\n\n| Gain  |    MUXWIP   | Description\n|           | value| Name|     R1 |    R2 |\n|0.06    |    0x0|  WIP0|    60k|      4k|\n|0.14    |    0x1|  WIP1|    56k|      8k|\n|0.33    |    0x2|  WIP2|    48k|    16k|\n|0.75    |    0x3|  WIP3|    32k|    32k|\n|1.33    |    0x4|  WIP4|    24k|    40k|\n|3         |    0x5|  WIP5|    16k|    48k|\n|7         |    0x6|  WIP6|      8k|    56k|\n|15       |    0x7|  WIP7|      4k|    60k|" autopos=0 x=0 y=156 align=LeftBase linear=1 selectable=1 font=FreeText
+Property name="value" value="Differential amplifier gain settings:\n\n| Gain  |    MUXWIP   | Description\n|           | value| Name|     R1 |    R2 |\n|0.06    |    0x0|  WIP0|    60k|      4k|\n|0.14    |    0x1|  WIP1|    56k|      8k|\n|0.33    |    0x2|  WIP2|    48k|    16k|\n|1         |    0x3|  WIP3|    32k|    32k|\n|1.66    |    0x4|  WIP4|    24k|    40k|\n|3         |    0x5|  WIP5|    16k|    48k|\n|7         |    0x6|  WIP6|      8k|    56k|\n|15       |    0x7|  WIP7|      4k|    60k|" autopos=0 x=0 y=156 align=LeftBase linear=1 selectable=1 font=FreeText
 Netnames
 .EndInstance
 --EndSXVERSION1.5
@@ -678,11 +678,11 @@ Property name="StyleSelected" value="DefaultTitleBlockSelected" autopos=1 normal
 Text value=".simulator SIMETRIX\n.TRAN 10u 80m\n.options noraw\n.inc .\\Opamp_AVR_DB.lb\n.simulator DEFAULT\n"
 LicenseInfo version="8.20l" feats=Basic|AD|Micron|Mcore2|Schematic|Advanced|Sim|Demo|Rtn|SIMPLIS_IF|beta serial=unknown user="unknown" code=unknown product="MPLAB Mindi" binarch=x86 system="WINNT/10.0/x64/17062916096/2/1/4/1398380449"
 SimulatorMode value="SIMetrix"
-View x=-1177 y=1101 zoomlevel=33 zoom=10 snapgrid=120 offsetX=1171 offsetY=-1101
+View x=-1171 y=1101 zoomlevel=33 zoom=10 snapgrid=120 offsetX=1171 offsetY=-1101
 Property name="CreateProduct" value="MPLAB Mindi" type=value
 Property name="GUID" value="{30fb3bec-b380-4582-bedd-5535b65ba986}" type=value
 Property name="PlaceSymbol" value="control_block" type=value
-Property name="UserVersion" value="62" type=value
-Property name="WriteLog" value="62/62/219803/219803" type=value
+Property name="UserVersion" value="63" type=value
+Property name="WriteLog" value="63/63/220141/220141" type=value
 .EndSchematic
 .EndComponent
